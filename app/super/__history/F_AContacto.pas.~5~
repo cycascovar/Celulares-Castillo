@@ -1,0 +1,30 @@
+unit F_AContacto;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls;
+
+type
+  TFAContacto = class(TForm)
+    Edit1: TEdit;
+    Contactar: TButton;
+    Label1: TLabel;
+    Label2: TLabel;
+    RadioButton1: TRadioButton;
+    RadioButton2: TRadioButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FAContacto: TFAContacto;
+
+implementation
+
+{$R *.dfm}
+
+end.

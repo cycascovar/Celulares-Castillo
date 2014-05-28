@@ -1,0 +1,62 @@
+object FAContacto: TFAContacto
+  Left = 0
+  Top = 0
+  Caption = 'FAContacto'
+  ClientHeight = 389
+  ClientWidth = 344
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 40
+    Width = 41
+    Height = 13
+    Caption = 'Nombre:'
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 80
+    Width = 146
+    Height = 13
+    Caption = 'Razones por las que contacta:'
+  end
+  object Edit1: TEdit
+    Left = 55
+    Top = 37
+    Width = 121
+    Height = 21
+    TabOrder = 0
+    Text = 'Edit1'
+  end
+  object Contactar: TButton
+    Left = 88
+    Top = 328
+    Width = 75
+    Height = 25
+    Caption = 'Contactar'
+    TabOrder = 1
+  end
+  object RadioButton1: TRadioButton
+    Left = 8
+    Top = 112
+    Width = 57
+    Height = 17
+    Caption = 'Queja'
+    TabOrder = 2
+  end
+  object RadioButton2: TRadioButton
+    Left = 88
+    Top = 112
+    Width = 113
+    Height = 17
+    Caption = 'Sugerencia'
+    TabOrder = 3
+  end
+end

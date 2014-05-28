@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/05/06 19:29:08.000.831,=S:\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\Unit1.pas</Transaction>
+    <Transaction>2014/05/06 19:29:30.000.094,S:\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\super\CClientesVentas.dfm=S:\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\Unit1.dfm</Transaction>
+    <Transaction>2014/05/06 19:29:30.000.094,S:\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\super\CClientesVentas.pas=S:\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\Unit1.pas</Transaction>
+    <Transaction>2014/05/06 20:16:45.000.718,=S:\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\Unit2.pas</Transaction>
+    <Transaction>2014/05/08 10:04:36.000.273,=S:\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\Unit2.pas</Transaction>
+    <Transaction>2014/05/08 10:04:51.000.516,S:\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\Unit2.dfm=S:\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\super\FC_EquiposReparacion.dfm</Transaction>
+    <Transaction>2014/05/08 10:04:51.000.516,S:\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\Unit2.pas=S:\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\super\FC_EquiposReparacion.pas</Transaction>
+    <Transaction>2014/05/08 10:05:05.000.452,=S:\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\Unit3.pas</Transaction>
+    <Transaction>2014/05/08 10:05:30.000.466,S:\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\Unit3.dfm=S:\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\super\FC_EquiposGarantia.dfm</Transaction>
+    <Transaction>2014/05/08 10:05:30.000.466,S:\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\Unit3.pas=S:\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\super\FC_EquiposGarantia.pas</Transaction>
+    <Transaction>2014/05/10 18:05:35.000.599,=S:\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\Unit4.pas</Transaction>
+    <Transaction>2014/05/10 18:06:28.000.324,S:\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\_FReporteTest.pas=S:\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\Unit4.pas</Transaction>
+    <Transaction>2014/05/10 18:06:28.000.324,S:\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\_FReporteTest.dfm=S:\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\Unit4.dfm</Transaction>
+    <Transaction>2014/05/14 14:01:41.000.661,=S:\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\Unit4.pas</Transaction>
+    <Transaction>2014/05/23 20:23:41.000.549,=Z:\uaeh\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\Unit3.pas</Transaction>
+    <Transaction>2014/05/23 20:24:07.000.340,Z:\uaeh\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\Unit3.pas=Z:\uaeh\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\FR_EReparacion.pas</Transaction>
+    <Transaction>2014/05/23 20:24:07.000.340,Z:\uaeh\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\Unit3.dfm=Z:\uaeh\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\FR_EReparacion.dfm</Transaction>
+    <Transaction>2014/05/24 09:35:37.000.133,=Z:\uaeh\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\Unit1.pas</Transaction>
+    <Transaction>2014/05/27 16:18:20.000.859,=Z:\uaeh\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\Unit3.pas</Transaction>
+    <Transaction>2014/05/27 16:18:47.000.492,Z:\uaeh\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\FR_EGarantia.dfm=Z:\uaeh\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\Unit3.dfm</Transaction>
+    <Transaction>2014/05/27 16:18:47.000.492,Z:\uaeh\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\FR_EGarantia.pas=Z:\uaeh\Dropbox\uaeh\Proyecto de fin de carrera I\Proyecto\Celulares chapulh\Unit3.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="super"/>
+    <File Path="super\CClientesGarantia.pas"/>
+    <File Path="super\CClientesGarantia.dfm"/>
+    <File Path="super\CClientesReparacion.pas"/>
+    <File Path="super\CClientesReparacion.dfm"/>
+    <File Path="super\CClientesVentas.pas"/>
+    <File Path="super\CClientesVentas.dfm"/>
+    <File Path="super\C_Recargas.pas"/>
+    <File Path="super\C_Recargas.dfm"/>
+    <File Path="super\FA_Login.pas"/>
+    <File Path="super\FA_Login.dfm"/>
+    <File Path="super\FC_EquiposEntregados.pas"/>
+    <File Path="super\FC_EquiposEntregados.dfm"/>
+    <File Path="super\FC_EquiposGarantia.pas"/>
+    <File Path="super\FC_EquiposGarantia.dfm"/>
+    <File Path="super\FC_EquiposReparacion.pas"/>
+    <File Path="super\FC_EquiposReparacion.dfm"/>
+    <File Path="super\FR_Movimientoslog.pas"/>
+    <File Path="super\FR_Movimientoslog.dfm"/>
+    <File Path="super\F_AContacto.pas"/>
+    <File Path="super\F_AContacto.dfm"/>
+    <File Path="super\F_AltaEquipos.pas"/>
+    <File Path="super\F_AltaEquipos.dfm"/>
+    <File Path="super\F_Main.pas"/>
+    <File Path="super\F_Main.dfm"/>
+    <File Path="super\F_PrincipalAdmin.pas"/>
+    <File Path="super\F_PrincipalAdmin.dfm"/>
+    <File Path="super\F_Usuarios.pas"/>
+    <File Path="super\F_Usuarios.dfm"/>
+    <File Path="FAlmacen_Local.pas"/>
+    <File Path="FAlmacen_Local.dfm"/>
+    <File Path="FGarantia.pas"/>
+    <File Path="FGarantia.dfm"/>
+    <File Path="FPrincipalEmpleados.pas"/>
+    <File Path="FPrincipalEmpleados.dfm"/>
+    <File Path="FRecargas.pas"/>
+    <File Path="FRecargas.dfm"/>
+    <File Path="FReparacion.pas"/>
+    <File Path="FReparacion.dfm"/>
+    <File Path="FR_Almacen.pas"/>
+    <File Path="FR_Almacen.dfm"/>
+    <File Path="FR_VentaDiario.pas"/>
+    <File Path="FR_VentaDiario.dfm"/>
+    <File Path="F_About.pas"/>
+    <File Path="F_About.dfm"/>
+    <File Path="F_Login.pas"/>
+    <File Path="F_Login.dfm"/>
+    <File Path="splashScreen.pas"/>
+    <File Path="splashScreen.dfm"/>
+    <File Path="uCore.pas"/>
+    <File Path="_FReporteTest.pas"/>
+    <File Path="_FReporteTest.dfm"/>
+    <File Path="FR_EReparacion.pas"/>
+    <File Path="FR_EReparacion.dfm"/>
+    <File Path="FR_EGarantia.pas"/>
+    <File Path="FR_EGarantia.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

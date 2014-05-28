@@ -1,0 +1,91 @@
+unit FR_Movimientoslog;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, ExtCtrls, QuickRpt, QRCtrls, qrpctrls, DB, ZAbstractRODataset,
+  ZAbstractDataset, ZDataset, ComCtrls, grimgctrl, uCore;
+
+type
+  TFRMovimientosLog = class(TForm)
+    QuickRep1: TQuickRep;
+    ZQLogs: TZQuery;
+    QRGridReport1: TQRGridReport;
+    QRBand1: TQRBand;
+    QRLabel1: TQRLabel;
+    ChildBand1: TQRChildBand;
+    QRLabel2: TQRLabel;
+    QRBand2: TQRBand;
+    QRTipo: TQRDBText;
+    QRMovimiento: TQRDBText;
+    QRBand3: TQRBand;
+    QRPie: TQRLabel;
+    QRDBFecha: TQRDBText;
+    QRShape1: TQRShape;
+    QRShape2: TQRShape;
+    QRShape3: TQRShape;
+    QRLabel3: TQRLabel;
+    QRLabel4: TQRLabel;
+    QRLabel5: TQRLabel;
+    QRLabel6: TQRLabel;
+    QRHRule1: TQRHRule;
+    QRShape4: TQRShape;
+    QRShape5: TQRShape;
+    procedure QuickRep1BeforePrint(Sender: TCustomQuickRep;
+      var PrintReport: Boolean);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FRMovimientosLog: TFRMovimientosLog;
+
+implementation
+uses
+  F_PrincipalAdmin,FPrincipalEmpleados,F_Usuarios;
+
+{$R *.dfm}
+
+procedure TFRMovimientosLog.QuickRep1BeforePrint(Sender: TCustomQuickRep;
+  var PrintReport: Boolean);
+var
+    //localRow : Integer;
+begin
+    ZQLogs.Close;
+    ZQLogs.SQL.Clear;
+    ZQLogs.SQL.Add('SELECT movimiento AS tipo, movimiento_detalles AS movimiento, fecha FROM empleado_movimiento WHERE empleado=:emp'); //WHERE empleado = "'+FPrincipal.Label2.Caption+'"
+    ZQLogs.ParamByName('emp').Value := FUsuarios.Usuario.Caption;
+    ZQLogs.ExecSQL;
+    ZQLogs.Open;
+    QRTipo.DataSet := ZQLogs; QRMovimiento.DataSet := ZQLogs; QRDBFecha.DataSet := ZQLogs;
+    QRTipo.DataField := 'tipo'; QRMovimiento.DataField := 'movimiento'; QRDBFecha.DataField := 'fecha';
+
+    {localRow := ZQLogs.DataSource.DataSet.RecNo;
+    ZQLogs.RecNo;
+
+    if ZQLogs.RecNo mod 2 <> 0 then
+    begin
+        QRShape4.Brush.Color := $00E1E1E1;
+        QRShape5.Brush.Color := $00E1E1E1;
+        QRTipo.Font.Color := clWhite;
+        QRMovimiento.Font.Color := clWhite;
+        QRDBFecha.Font.Color := clWhite;
+    end else
+    begin
+        QRShape4.Brush.Color := clWhite;
+        QRShape5.Brush.Color := clWhite;
+        QRTipo.Font.Color := clBlack;
+        QRMovimiento.Font.Color := clBlack;
+        QRDBFecha.Font.Color := clBlack;
+    end;}
+        
+
+    QRPie.Caption := 'Reporte generado el '+DateToStr(Date())+' a las '+TimeToStr(Time());
+    QRLabel2.Caption := 'Empleado: '+FUsuarios.Usuario.Caption;
+    QRLabel6.Caption := 'Sucursal: '+getSucursal();
+end;
+
+end.
